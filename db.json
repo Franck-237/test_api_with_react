@@ -1,0 +1,11 @@
+{
+  "utilisateurs": [
+    {
+      "id": "bb23",
+      "nomUtilisateur": "kamdem",
+      "mailUtilisateur": "test@gmail.com",
+      "motDePasse": "123456",
+      "motDePasseConfirmation": "123456"
+    }
+  ]
+}
