@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 export default function Dashboard() {
   
@@ -12,6 +12,9 @@ export default function Dashboard() {
   });
   
   return (
-    <div>Dashboard</div>
+    <div>
+      <Link to='/inscription'>Inscription</Link>
+      <Link to='/connexion'>Connexion</Link>
+    </div>
   )
 }
